@@ -35,7 +35,8 @@ ul li {
 }
 ul li a {
     color: white;
-    border: 1px solid black;
+    border: 1px solid transparent; 
+    /* transparent: trong suốt */
     padding: 6px 14px;
     border-radius: 30px;
 }
