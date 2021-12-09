@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 1vw 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img {
+    display: flex;
+    background-image: url(https://i.pinimg.com/originals/5e/21/da/5e21dacde310d6d13ad78d834345a9bf.jpg);
+    width: 30vw;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

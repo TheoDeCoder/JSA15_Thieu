@@ -9,6 +9,8 @@
     margin: 0px;
     padding: 0px;
     width: 100%;
+    background-color: gray;
+    height: 10000px;
   }
   .logo {
     width: 100px;
