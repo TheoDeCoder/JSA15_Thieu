@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 150px;
+}
+
+input {
+    padding: 5px;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+

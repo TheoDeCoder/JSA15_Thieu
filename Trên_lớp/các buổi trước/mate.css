@@ -1,0 +1,107 @@
+/* reset css */
+* {
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+}
+body {
+  background-color: darkgray;
+  margin: 0;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+/* header */
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: all .2s;
+}
+
+header .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+header .logo {
+  width: 100px;
+  height: 60px;
+  background-image: url(https://preview.uideck.com/items/mate/img/logo.png);
+}
+header .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header ul {
+  display: flex;
+}
+header ul li {
+  padding: 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+header ul li a {
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 8px 16px;
+  border-radius: 30px;
+  transition: all .2s;
+}
+header ul li a:active {
+  background-color: aquamarine!important;
+  border-radius: 30px;
+}
+header ul li a:hover {
+  background-color: rgba(127, 255, 212, 0.432);
+  border-radius: 30px;
+}
+.active {
+  background-color: aquamarine;
+}
+/* body */ 
+#body {
+  position: relative;
+  top: -80px;
+}
+/* banner */
+.banner {
+  padding-top: 60px;
+  height: 535px;
+  background-image: url(https://preview.uideck.com/items/mate/img/hero-area.jpg);
+  display: flex;
+  justify-content: center;
+}
+
+.banner-cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-cover .row h1,p {
+  text-align: center;
+  color: white;
+}
+.banner-cover .row h1 {
+  font-size: 40px;
+}
+.banner-cover .row {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-cover button {
+  padding: 12px 35px;
+  border-radius: 35px;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: aquamarine;
+}
